@@ -25,7 +25,7 @@ export default function Result() {
                     <CircleArrowDown />
                 </div>
 
-                <div className="relative w-11/12 lg:w-4/6 h-[25rem] md:h-[40rem] flex flex-col justify-center items-center gap-10 text-white bg-red-500 shadow-md shadow-emerald-300">
+                <div className={`relative w-11/12 lg:w-4/6 h-[25rem] md:h-[40rem] flex flex-col justify-center items-center gap-10 text-white ${videoFinished ? 'bg-red-500  shadow-md shadow-emerald-300' : 'bg-transparent'}`}>
                     {videoFinished ? (
                         <>
                             <div className="absolute top-3 left-3 bg-zinc-900/50 rounded-lg p-2">
