@@ -77,35 +77,35 @@ export function WeightForm() {
                 <InputRoot>
                     <InputControl id="name" type="text" placeholder='Nome' {...register('name')} />
                 </InputRoot>
-                <p className="text-xs text-red-500 font-semibold">{errors.name?.message}</p>
+                <p className="text-sm text-red-600 font-semibold">{errors.name?.message}</p>
             </div>
 
             <div className={`w-full ${inter.className} font-semibold`}>
                 <InputRoot>
                     <InputControl id="age" type="text" placeholder='Idade'  {...register('age')} />
                 </InputRoot>
-                <p className="text-xs text-red-500 font-semibold">{errors.age?.message}</p>
+                <p className="text-sm text-red-600 font-semibold">{errors.age?.message}</p>
             </div>
 
             <div className={`w-full ${inter.className} font-semibold`}>
                 <InputRoot>
                     <InputControl id="height" type="text" placeholder='Altura (em cm)'  {...register('height')} />
                 </InputRoot>
-                <p className="text-xs text-red-500 font-semibold">{errors.height?.message}</p>
+                <p className="text-sm text-red-600 font-semibold">{errors.height?.message}</p>
             </div>
 
             <div className={`w-full ${inter.className} font-semibold`}>
                 <InputRoot>
                     <InputControl id="current-weight" type="text" placeholder='Peso atual (em kg)'  {...register('currentweight')} />
                 </InputRoot>
-                <p className="text-xs text-red-500 font-semibold">{errors.currentweight?.message}</p>
+                <p className="text-sm text-red-600 font-semibold">{errors.currentweight?.message}</p>
             </div>
 
             <div className={`w-full ${inter.className} font-semibold`}>
                 <InputRoot>
                     <InputControl id="desired-weight" type="text" placeholder='Peso desejado (em kg)'  {...register('desiredweight')} />
                 </InputRoot>
-                <p className="text-xs text-red-500 font-semibold">{errors.desiredweight?.message}</p>
+                <p className="text-sm text-red-600 font-semibold">{errors.desiredweight?.message}</p>
             </div>
 
             <p>Qual é o seu gênero?</p>
